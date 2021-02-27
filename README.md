@@ -26,10 +26,12 @@ Submitted by: **Aleksandr Molchagin**
 Here's a walkthrough of implemented user stories:
 
 Part II:
+
 <img src='Walkthrough2.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' />
 
 Part I:
-<img src='Walkthrough1.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' />
+
+<img src='Walkthrough.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' />
 
 ### Notes
 I wish I had more time to play around and to implement all bonus stories.
