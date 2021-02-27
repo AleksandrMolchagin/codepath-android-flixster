@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDetTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="textStart"
+        android:textColor="#F0F0F0"
+        tools:text="As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy." />
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="310dp"
+        android:layout_height="152dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_centerVertical="false"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:cropToPadding="false"
+        android:gravity="top"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvDetTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        android:fontFamily="@font/anonymous_pro"
+        android:textAlignment="viewStart"
+        android:textColor="#F0F0F0"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Star Wars: Episode III Revenge of the Sith" />
+
+</RelativeLayout>
